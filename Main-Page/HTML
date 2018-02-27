@@ -5,8 +5,10 @@
     <link rel="stylesheet" href="CSS">
   </head>
   <body>
-      <h1>LOL</h1>
-
+    <div class="tp-sctn">
+      <img src="icon.jpg" alt="Gaming central logo">
+      <h1>Gaming Central</h1>
+    </div>
 
   </body>
 

@@ -1,3 +1,5 @@
-h1 {
-  color: blue;
+.tp-sctn {
+  color: red;
+  text-align: center;
+  font-family: Arial;
 }
