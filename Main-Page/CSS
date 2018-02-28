@@ -1,5 +1,53 @@
+body {
+  background-color: #474747;
+  font-family: Arial;
+}
 .tp-sctn {
   color: red;
   text-align: center;
-  font-family: Arial;
+  background-image: url();
+}
+.icon {
+  border-radius: 50%;
+  margin: 5px;
+}
+.icon:hover {
+  transform: rotate(30deg);
+  animation: roll 3s infinite;
+  animation-direction: alternate;
+}
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.header {
+  margin: 0;
+  text-align: right;
+  background-color: black;
+  padding-right: 20px;
+}
+a {
+  color: red;
+  text-decoration: none;
+  font-size: 15px;
+}
+.list {
+  color: red;
+  list-style-type: none;
+  display: inline-table;
+}
+.smallicon {
+  border-radius: 50%;
+  height: 30px;
+  padding-right: 15px;
+}
+.smalltitle {
+  text-align: right;
+}
+.mainsctn {
+
 }

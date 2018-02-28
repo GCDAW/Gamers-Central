@@ -5,10 +5,27 @@
     <link rel="stylesheet" href="CSS">
   </head>
   <body>
+    <div class="header">
+      <img class="list smallicon" src="icon.jpg">
+      <p class="smalltitle list">Gaming Central</p>
+      <ul class="list">
+        <li><a href="#"><p>UKL</p></a></li>
+      </ul>
+      <ul class="list">
+        <li><a href="#"><p>UKL</p></a></li>
+      </ul>
+      <ul class="list">
+        <li><a href="#"><p>UKL</p></a></li>
+      </ul>
+      <ul class="list">
+        <li><a href="#"><p>UKL</p></a></li>
+      </ul>
+    </div>
     <div class="tp-sctn">
-      <img src="icon.jpg" alt="Gaming central logo">
+      <img class="icon" src="icon.jpg" alt="Gaming central logo">
       <h1>Gaming Central</h1>
     </div>
+    <div class="mainsctn"
 
   </body>
 
