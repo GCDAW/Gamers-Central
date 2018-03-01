@@ -1,5 +1,7 @@
 body {
-  background-color: #474747;
+  background-image: url(https://cdn.discordapp.com/attachments/379353695957286915/418517710943551489/25.png);
+  background-size: 1520px 680px;
+  background-position: center;
   font-family: Arial;
 }
 .tp-sctn {
@@ -46,8 +48,11 @@ a {
   padding-right: 15px;
 }
 .smalltitle {
-  text-align: right;
+  padding-right: 250px;
 }
 .mainsctn {
-
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  background-color: #993300;
 }
