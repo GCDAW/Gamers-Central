@@ -1,0 +1,91 @@
+body {
+  background-image: url(https://cdn.discordapp.com/attachments/418517833006317584/422099096271323156/Right_fromat_maybe_15_contrast_-_Mixture_10th_March_2018.png);
+  background-size: 1220px 880px;
+  background-position: center;
+  font-family: Arial;
+}
+.tp-sctn {
+  color: red;
+  text-align: center;
+  background-image: uhttps://media.discordapp.net/attachments/418517833006317584/420321601234665472/22.png?width=400&height=225);
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: 100%;
+}
+.icon {
+  border-radius: 50%;
+  margin: 5px;
+}
+.icon:hover {
+  transform: rotate(30deg);
+  animation: roll 3s infinite;
+  animation-direction: alternate;
+}
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.header {
+  background-color: black;
+}
+.list a {
+  display: block;
+  color: #ff4f4f;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ff4f4f;
+}
+.list a:hover{
+  color: red;
+  border-bottom-color: red;
+}
+.list {
+}
+.smallicon {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  align-self: center;
+}
+.smalltitle {
+  align-self: center;
+  color: red;
+}
+.mainsctn {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  background-color: #993300;
+}
+.header,
+.list {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 769px) {
+  .header {
+    height: 200px;
+    justify-content: flex-end;
+  }
+  .list{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 40px;
+  }
+  .list a {
+    border-bottom-color: transparent;
+  }
+}
+@media (min-width: 1025px) {
+  .header {
+    flex-direction: row;align-items:
+  }
+  .smalltitle {
+    margin-right: auto;
+  }
+}
