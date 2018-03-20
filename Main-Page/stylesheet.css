@@ -32,19 +32,27 @@ body {
 .header {
   background-color: black;
 }
-.list a {
-  display: block;
-  color: #ff4f4f;
-  text-decoration: none;
-  font-size: 15px;
-  text-align: center;
-  border-bottom: 1px solid #ff4f4f;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
-.list a:hover{
-  color: red;
-  border-bottom-color: red;
+
+
+.gright {
+  float: right;
 }
-.list {
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
 }
 .smallicon {
   border-radius: 50%;
@@ -62,30 +70,10 @@ body {
   margin-top: 20px;
   background-color: #993300;
 }
-.header,
-.list {
-  display: flex;
-  flex-direction: column;
-}
-@media (min-width: 769px) {
-  .header {
-    height: 200px;
-    justify-content: flex-end;
-  }
-  .list{
-    flex-direction: row;
-    justify-content: space-between;
-    padding-right: 40px;
-  }
-  .list a {
-    border-bottom-color: transparent;
-  }
-}
-@media (min-width: 1025px) {
-  .header {
-    flex-direction: row;align-items:
-  }
   .smalltitle {
     margin-right: auto;
   }
+}
+.center {
+  text-align: center;
 }
