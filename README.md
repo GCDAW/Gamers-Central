@@ -1,2 +1,2 @@
-# gcdaw
-This will be a website for the steam group, http://steamcommunity.com/groups/GCDAW/  .
+# Gamers Central
+This is the main repository for the creation of the next gen social media website.
