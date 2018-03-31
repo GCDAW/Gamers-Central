@@ -1,6 +1,6 @@
 body {
   background-image: url(https://cdn.discordapp.com/attachments/418517833006317584/422099096271323156/Right_fromat_maybe_15_contrast_-_Mixture_10th_March_2018.png);
-  background-size: 1220px 880px;
+  background-size: 1350px 1400px;
   background-position: center;
   font-family: Arial;
 }
@@ -32,28 +32,6 @@ body {
 .header {
   background-color: black;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-
-.gright {
-  float: right;
-}
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-li a:hover {
-    background-color: #111;
-}
 .smallicon {
   border-radius: 50%;
   height: 40px;
@@ -70,10 +48,22 @@ li a:hover {
   margin-top: 20px;
   background-color: #993300;
 }
-  .smalltitle {
+.smalltitle {
     margin-right: auto;
   }
 }
 .center {
   text-align: center;
+}
+.rtwrk {
+  background-color: black;
+  margin: 100px;
+  border-color: red;
+  border: thick double red;
+  border-radius: 20px;
+  align: center;
+}
+.piece {
+  margin: 20px;
+  border-radius: 5px;
 }
